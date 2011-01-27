@@ -1,0 +1,12 @@
+{
+  "name"          : "syslog",
+  "description"   : "Syslog-ng TCP client, with basic fault-tolerance.",
+  "url"           : "http://github.com/cloudhead/node-syslog",
+  "keywords"      : ["syslog", "logger"],
+  "author"        : "Alexis Sellier <self@cloudhead.net>",
+  "contributors"  : [],
+  "version"       : "0.1.0",
+  "main"          : "./lib/node-syslog",
+  "directories"   : { "lib": "./lib" },
+  "engines"       : { "node": ">=0.3.6" }
+}
