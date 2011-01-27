@@ -7,7 +7,7 @@ node-syslog
 installation
 ------------
 
-  $ npm install syslog
+    $ npm install syslog
 
 synopsis
 --------
@@ -71,10 +71,14 @@ For this to work, you have to make sure you set the `process.title` variable in 
 
     process.title = 'fnord';
 
+Alternatively, you can pass it as an option to `createClient`:
+
+    syslog.createClient(514, 'localhost', { name: 'fnord' });
+
 license
 -------
 
 See `LICENSE` file.
 
-Copyright (c) 2011 Alexis Sellier
+> Copyright (c) 2011 Alexis Sellier
 
