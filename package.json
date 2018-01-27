@@ -5,7 +5,7 @@
   "keywords"      : ["syslog", "logger"],
   "author"        : "Alexis Sellier <self@cloudhead.net>",
   "contributors"  : [],
-  "version"       : "0.1.1",
+  "version"       : "0.1.1-1",
   "main"          : "./lib/node-syslog",
   "directories"   : { "lib": "./lib" },
   "engines"       : { "node": ">=0.4.2" }
