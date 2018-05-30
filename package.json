@@ -8,5 +8,8 @@
   "version"       : "0.1.1-1",
   "main"          : "./lib/node-syslog",
   "directories"   : { "lib": "./lib" },
-  "engines"       : { "node": ">=0.4.2" }
+  "engines"       : { "node": ">=0.2.6" },
+  "scripts"       : {
+      "install": "cd ./hostname && node-waf configure build"
+  }
 }
